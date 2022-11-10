@@ -1,8 +1,11 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import React from 'react';
+import React, { useContext } from 'react';
+import { Store } from '../utils/Store';
 
 export default function Layout({ title, children }) {
+  const { state, dispatch } = useContext(Store);
+  const { cart } = state;
   return (
     <>
       <Head>
@@ -18,7 +21,14 @@ export default function Layout({ title, children }) {
               Amazona
             </Link>
             <div>
-              <Link href="/cart">Cart</Link>
+              <Link href="/cart">
+                Cart
+                {cart.cartItems.length > 0 && (
+                  <span className="mr-2 ml-1 rounded-full bg-red-600 px-2 py-1 text-xs font-bold text-white ">
+                    {cart.cartItems.reduce((a, c) => a + c.quantity, 0)}
+                  </span>
+                )}
+              </Link>
               <Link href="/login">Login</Link>
             </div>
           </nav>
