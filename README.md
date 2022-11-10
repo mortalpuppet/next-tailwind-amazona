@@ -12,3 +12,4 @@
 3.add main section
 4.add Footer
 5.add tailwind classes
+6.adding some products

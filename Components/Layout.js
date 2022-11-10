@@ -25,7 +25,7 @@ export default function Layout({ title, children }) {
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
         <footer className="flex justify-center h-10 item-center shadow-inner">
-          Footer
+          Made by @MP
         </footer>
       </div>
     </>
