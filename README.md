@@ -6,3 +6,9 @@
 2.Install Tools
 3.Create Next App
 4.Publish to github
+5.Create Website Layout
+1.Create Layout Components
+2.add Header
+3.add main section
+4.add Footer
+5.add tailwind classes
