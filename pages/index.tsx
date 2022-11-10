@@ -1,4 +1,4 @@
-import Layout from '../Components/Layout';
+import Layout from '../components/Layout';
 import ProductItem from '../components/productItem';
 import data from '../utils/data';
 
