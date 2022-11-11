@@ -29,3 +29,8 @@
    1. save connection url in .env
    1. create db utils file
    1. create sample users
+9. Create login API
+   1. install next-auth
+   1. create nextAuth.js
+   1. implement sign in
+   1. use sign in in login form
