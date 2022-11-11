@@ -8,7 +8,7 @@ const data = {
       price: '15000',
       rating: '10',
       numReviews: '10',
-      CountInStock: '8',
+      countInStock: '8',
       description: 'One of the best games ever made',
     },
     {
@@ -19,7 +19,7 @@ const data = {
       price: '15000',
       rating: '10',
       numReviews: '10',
-      CountInStock: '8',
+      countInStock: '13',
       description: 'One of the best games ever made',
     },
     {
@@ -30,7 +30,7 @@ const data = {
       price: '15000',
       rating: '10',
       numReviews: '10',
-      CountInStock: '8',
+      countInStock: '15',
       description: 'One of the best games ever made',
     },
   ],
