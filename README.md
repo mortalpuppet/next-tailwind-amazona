@@ -23,3 +23,9 @@
 7. Save cart items
    1. install js coookies package
    1. save and retrieve cart items in cookies
+8. Connect to MongoDB
+   1. install mongoose
+   1. install mongodb or mongodb atlas
+   1. save connection url in .env
+   1. create db utils file
+   1. create sample users
