@@ -20,3 +20,6 @@
 7.1.show product info in second column
 7.1.show add to cart action in the 3rd column
 7.1.add styles
+11.Save cart items
+..1.install js coookies package
+..1. save and retrieve cart items in cookies
